@@ -1,0 +1,379 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+@keyframes cambiar{
+    0%{background-position: 0 50%;}
+    50%{background-position: 100% 50%;}
+    100%{background-position: 0 50%;}
+}
+.clear{
+    clear: both;
+}
+img{
+    display: block;
+    width: 100%;
+}
+.centrado{
+    width: 70%;
+    margin: auto;
+}
+body{
+    font-family: sans-serif;
+    color: white;
+    width: 100%;
+    background: linear-gradient(70deg,rgb(27, 8, 103), rgb(128, 141, 255), rgb(94, 50, 240), rgb(86, 77, 210));
+    background-size: 400% 400%;
+    animation: cambiar 10s ease infinite;
+}
+#uno{
+    width: 100%;
+    margin: auto;
+}
+#uno img{
+    width: 15%;
+    margin: auto;
+    border: 5px solid white;
+    border-radius: 50%;
+    margin-top: 5%;
+}
+.redes{
+    display: flex;
+    margin: auto;
+    width: 15%;
+    margin-top: 2%;
+}
+.redes a{
+    display: block;
+    margin: auto;
+    font-size: 20px;
+    color: white;
+    padding: 1%;
+    float: left;
+    transition: all 0.3s ease;
+}
+.redes a:hover{
+    transform: scale(1.2); 
+    color: rgb(0, 0, 0);
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+    margin: 0%;
+    margin-top: 2%;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+#dos{
+    width: 100%;
+    height: 30%;
+}
+h2{
+    display: block;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    font-weight: 300px;
+    text-align: center;
+    border-bottom: 1px solid white;
+    width: 200px;
+    height: 50px;
+    line-height: 50px;
+    margin: auto;
+    margin-bottom: 2%;
+    margin-top: 2%;
+}
+#dos p{
+    display: block;
+}
+#dos a{
+    display: block;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    border: 1px solid white;
+    width: 180px;
+    padding: 1%;
+    margin: auto;
+    margin-top: 3%;
+    color: white;
+    text-decoration: none;
+}
+#dos a{
+    text-decoration: none;
+    color: white;
+}
+#dos a:hover{
+    background-color: white;
+    color: rgb(92, 9, 176);
+    border: 1px solid rgb(92, 9, 176);
+}
+#tres h2{
+    margin-top: 5%;
+    width: 40%;
+}
+#tres .bloque{
+    display: block;
+    text-align: center;
+    float: left;
+    width: 20%;
+    margin-left: 5%;
+    margin: auto;
+    margin-top: 2%;
+}
+#tres p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    margin: auto;
+    margin-top: 1%;
+    color: rgba(255, 255, 255, 0.67);
+}
+#tres img{
+    display: block;
+    width: 55px;
+    height: 60px;
+    margin: auto;
+}
+#cuatro h2{
+    margin-top: 5%;
+    width: 40%;
+}
+#cuatro .icono{
+    display: block;
+    text-align: center;
+    float: left;
+    width: 20%;
+    margin-left: 5%;
+    margin: auto;
+    margin-top: 2%;
+}
+#cuatro img{
+    display: block;
+    width: 55px;
+    height: 60px;
+    margin: auto;
+}
+#cuatro p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    margin: auto;
+    margin-top: 1%;
+    color: rgba(255, 255, 255, 0.67);
+}
+#cinco{
+    margin: auto;
+    margin-top: 5%;
+}
+#cinco .desplegable{
+    display: block;
+    width: 100%;
+    flex-direction: column;
+    justify-content: left;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 1%;
+}
+.desplegable h4{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+#cinco h4:hover{
+    color: rgb(201, 182, 253);
+}
+#cinco p{
+    display: block;
+    width: 100%;
+    margin: auto;
+    margin-top: 1%;
+    padding: 20px 20px 10px 20px ;
+}
+#up-uno{
+    margin-right: 0.5%;
+
+}
+#up-uno:hover{
+    color: rgb(201, 182, 253);
+}
+#up-dos{
+    margin-right: 0.5%;
+}
+#up-tres{
+    margin-right: 0.5%;
+}
+#down-uno{
+    display: none;
+    transition: all 0.5s ease;
+    margin-right: 0.5%;
+}
+#down-dos{
+    display: none;
+    transition: all 0.5s ease;
+    margin-right: 0.5%;
+}
+#down-tres{
+    display: none;
+    transition: all 0.5s ease;
+    margin-right: 0.5%;
+}
+#tecnologias{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10px;
+}
+.desplegable a{
+    display: block;
+    margin: auto;
+    width: 15%;
+    color: white;
+    padding: 8px 5px 8px 5px;
+    text-decoration: none;
+    border: 1px solid white;
+    margin-top: 1%;
+    font-family: 'Courier New', Courier, monospace;
+}
+.desplegable a:hover{
+    background-color: white;
+    color: rgb(99, 7, 199);
+    border-color: rgb(99, 7, 199);
+}
+.contenido-uno{
+    display: block;
+    margin: auto;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    width: 50%;
+    height: 0px;
+    background-color: rgba(255, 255, 255, 0.141);
+    border-radius: 15px;
+    overflow: hidden;
+    transition: all 0.5s ease;
+}
+.contenido-uno img{
+    width: 10%;
+    margin: 2%;
+}
+.contenido-dos{
+    display: block;
+    margin: auto;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    width: 50%;
+    height: 0px;
+    background-color: rgba(255, 255, 255, 0.141);
+    border-radius: 15px;
+    overflow: hidden;
+    transition: all 0.5s ease;
+}
+.contenido-dos img{
+    width: 10%;
+    margin: 2%;
+}
+.contenido-tres{
+    display: block;
+    margin: auto;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    width: 50%;
+    height: 0px;
+    background-color: rgba(255, 255, 255, 0.141);
+    border-radius: 15px;
+    overflow: hidden;
+    transition: all 0.5s ease;
+}
+.contenido-tres img{
+    width: 10%;
+    margin: 2%;
+}
+
+footer{
+    margin: auto;
+    font-size: 20px;
+    text-align: center;
+    padding: 1%;
+    background-color: black;
+    color: white;
+    margin-top: 5%;
+}
+@media screen and (max-width: 480px){
+    .centrado{
+        width: 100%;
+    }
+    #uno img{
+        width: 50%;
+    }
+    #uno .redes{
+        width: 50%;
+    }
+    #uno h1{
+        font-size: 40px;
+        padding: 5%;
+    }
+    #dos{
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    #dos h2{
+        font-size: 25px;
+    }
+    #dos p{
+        font-size: 13px;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    #dos a{
+        margin-top: 30px;
+    }
+    #tres{
+        width: 80%;
+        margin: auto;
+        margin-bottom: 50px;
+    }
+    #tres h2{
+        width: 80%;
+        font-size: 25px;
+    }
+    #cuatro{
+        width: 80%;
+        margin: auto;
+    }
+    #cuatro h2{
+        width: 80%;
+        font-size: 25px;
+    }
+    #cuatro .icono{
+        width: 25%;
+        margin-bottom: 10px;
+    }
+    #cinco{
+        margin-top: 50px;
+    }
+    #cinco p{
+        font-size: 12px;
+        padding: 5%;
+    }
+    .desplegable img{
+        width: 18%;
+    }
+    .desplegable a{
+        width: 20%;
+        font-size: 12px;
+        margin-top: 2%;
+        margin-bottom: 0%;
+    }
+    .contenido-uno{
+        width: 70%;
+    }
+    .contenido-dos{
+        width: 70%;
+    }
+    .contenido-tres{
+        width: 70%;
+    }
+    footer{
+        margin-top: 80px;
+    }
+}
