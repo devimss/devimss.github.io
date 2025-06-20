@@ -333,7 +333,7 @@ h2{
     margin: 2%;
 }
 .contenido-cinco{
-    display: none;
+    display: block;
     margin: auto;
     margin-top: 1%;
     margin-bottom: 1%;
