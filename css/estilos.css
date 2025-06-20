@@ -216,6 +216,16 @@ h2{
     transition: all 0.5s ease;
     margin-right: 0.5%;
 }
+#down-cuatro{
+    display: none;
+    transition: all 0.5s ease;
+    margin-right: 0.5%;
+}
+#down-cinco{
+    display: none;
+    transition: all 0.5s ease;
+    margin-right: 0.5%;
+}
 #tecnologias{
     display: flex;
     flex-direction: row;
