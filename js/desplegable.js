@@ -40,7 +40,7 @@ $('#down-tres').on('click', function(){
     $(".contenido-tres").css("height","0px");
     $("#down-tres").css("display","none");
     $("#up-tres").css("display","block");
-    $(".contenido-tres").css("margin-bottom","3%");
+    $(".contenido-tres").css("margin-bottom","0%");
 });
 
 $('#up-cuatro').on('click', function(){
@@ -55,7 +55,7 @@ $('#down-cuatro').on('click', function(){
     $(".contenido-cuatro").css("height","0px");
     $("#down-cuatro").css("display","none");
     $("#up-cuatro").css("display","block");
-    $(".contenido-cuatro").css("margin-bottom","3%");
+    $(".contenido-cuatro").css("margin-bottom","0%");
 });
 
 $('#up-cinco').on('click', function(){
@@ -70,5 +70,5 @@ $('#down-cinco').on('click', function(){
     $(".contenido-cinco").css("height","0px");
     $("#down-cinco").css("display","none");
     $("#up-cinco").css("display","block");
-    $(".contenido-cinco").css("margin-bottom","3%");
+    $(".contenido-cinco").css("margin-bottom","0%");
 });
