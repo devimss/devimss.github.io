@@ -198,8 +198,26 @@ h2{
 #up-dos{
     margin-right: 0.5%;
 }
+#up-dos:hover{
+    color: rgb(201, 182, 253);
+}
 #up-tres{
     margin-right: 0.5%;
+}
+#up-tres:hover{
+    color: rgb(201, 182, 253);
+}
+#up-cuatro{
+    margin-right: 0.5%;
+}
+#up-cuatro:hover{
+    color: rgb(201, 182, 253);
+}
+#up-cinco{
+    margin-right: 0.5%;
+}
+#up-cinco:hover{
+    color: rgb(201, 182, 253);
 }
 #down-uno{
     display: none;

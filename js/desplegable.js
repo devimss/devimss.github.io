@@ -42,3 +42,33 @@ $('#down-tres').on('click', function(){
     $("#up-tres").css("display","block");
     $(".contenido-tres").css("margin-bottom","3%");
 });
+
+$('#up-cuatro').on('click', function(){
+    $(".contenido-cuatro").css("overflow","visible");
+    $(".contenido-cuatro").css("height","180px");
+    $(".contenido-cuatro").css("margin-bottom","5%");
+    $("#up-cuatro").css("display","none");
+    $("#down-cuatro").css("display","block");
+});
+$('#down-cuatro').on('click', function(){
+    $(".contenido-cuatro").css("overflow","hidden");
+    $(".contenido-cuatro").css("height","0px");
+    $("#down-cuatro").css("display","none");
+    $("#up-cuatro").css("display","block");
+    $(".contenido-cuatro").css("margin-bottom","3%");
+});
+
+$('#up-cinco').on('click', function(){
+    $(".contenido-cinco").css("overflow","visible");
+    $(".contenido-cinco").css("height","180px");
+    $(".contenido-cinco").css("margin-bottom","5%");
+    $("#up-cinco").css("display","none");
+    $("#down-cinco").css("display","block");
+});
+$('#down-cinco').on('click', function(){
+    $(".contenido-cinco").css("overflow","hidden");
+    $(".contenido-cinco").css("height","0px");
+    $("#down-cinco").css("display","none");
+    $("#up-cinco").css("display","block");
+    $(".contenido-cinco").css("margin-bottom","3%");
+});
