@@ -15,7 +15,7 @@ $('#down-uno').on('click', function(){
 
 $('#up-dos').on('click', function(){
     $(".contenido-dos").css("overflow","visible");
-    $(".contenido-dos").css("height","200px");
+    $(".contenido-dos").css("height","220px");
     $(".contenido-dos").css("margin-bottom","3%");
     $("#up-dos").css("display","none");
     $("#down-dos").css("display","block");
@@ -30,7 +30,7 @@ $('#down-dos').on('click', function(){
 
 $('#up-tres').on('click', function(){
     $(".contenido-tres").css("overflow","visible");
-    $(".contenido-tres").css("height","180px");
+    $(".contenido-tres").css("height","220px");
     $(".contenido-tres").css("margin-bottom","5%");
     $("#up-tres").css("display","none");
     $("#down-tres").css("display","block");
@@ -45,7 +45,7 @@ $('#down-tres').on('click', function(){
 
 $('#up-cuatro').on('click', function(){
     $(".contenido-cuatro").css("overflow","visible");
-    $(".contenido-cuatro").css("height","180px");
+    $(".contenido-cuatro").css("height","220px");
     $(".contenido-cuatro").css("margin-bottom","5%");
     $("#up-cuatro").css("display","none");
     $("#down-cuatro").css("display","block");
@@ -60,7 +60,7 @@ $('#down-cuatro').on('click', function(){
 
 $('#up-cinco').on('click', function(){
     $(".contenido-cinco").css("overflow","visible");
-    $(".contenido-cinco").css("height","180px");
+    $(".contenido-cinco").css("height","220px");
     $(".contenido-cinco").css("margin-bottom","5%");
     $("#up-cinco").css("display","none");
     $("#down-cinco").css("display","block");
@@ -72,3 +72,4 @@ $('#down-cinco').on('click', function(){
     $("#up-cinco").css("display","block");
     $(".contenido-cinco").css("margin-bottom","0%");
 });
+
